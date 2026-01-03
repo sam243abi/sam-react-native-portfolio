@@ -7,7 +7,7 @@ React Native Developer with 1.5+ years of experience building clean, user-friend
 ### 📱 Laundry Application (Personal Project)
 A full-flow laundry service mobile app with authentication, cart, scheduling, and map-based address selection.  
 
-👉 [View Project](./Laundary-App)
+👉 [View Project](./Laundry-App)
 
 
 ### 📦 Daily Drop (Company Project)
