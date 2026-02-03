@@ -24,12 +24,16 @@ This project focuses on **practical app flows**, **persistent authentication**, 
 
 The dashboard displays multiple laundry services such as:
 
-- Wash & Clean  
-- Wash & Dry  
+- Express Laundary
+- Dry Cleaning
+- Wash & Fold  
+- Wash & Iron
+- Ironing
+- Household Spa
+- Starching 
 - Shoe Cleaning  
 - Stain Removal  
-- 99 Minutes Wash  
-- And more…
+- Helmet Cleaning   
 
 Each service is represented as a selectable card.
 
@@ -87,6 +91,7 @@ Each service is represented as a selectable card.
 - React Native
 - JavaScript (ES6)
 - Firebase Authentication (Phone OTP)
+- FireStore (saving and using user data)
 - React Navigation
 - Reusable Component Architecture
 - API-ready architecture (JSON-based)
@@ -115,4 +120,22 @@ npm install
 npx react-native run-android
 # or
 npx react-native run-ios
+```
+## 📌 Project Status
 
+🛠 Actively maintained & improved
+
+Planned enhancements:
+
+- Backend API integration
+- Order history
+- Payment flow
+- Performance optimizations
+
+
+## 👤 Author
+
+Sam Abhishek A C 
+React Native Developer
+
+📍 Open to React Native opportunities
