@@ -135,7 +135,8 @@ Planned enhancements:
 
 ## 👤 Author
 
-Sam Abhishek A C 
+Sam Abhishek A C  
+
 React Native Developer
 
 📍 Open to React Native opportunities
