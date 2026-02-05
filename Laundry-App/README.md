@@ -9,10 +9,10 @@ This project focuses on **practical app flows**, **persistent authentication**, 
 ## 📸 App Preview
 
 ### 📸 Screenshots
-[assets/Preview](assets/Preview)
+👉 **[Click here to view app screenshots](assets/Preview)**
 
 ### 🎥 Demo Video
-[assets/Preview](assets/Preview)
+👉 **[Click here to view app Demo Vedio](assets/Preview)**
 
 ---
 
