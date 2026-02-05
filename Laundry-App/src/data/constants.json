@@ -1,0 +1,46 @@
+{
+  "app": {
+    "name": "MyNewApp",
+    "brandName": "99 mins wash",
+    "logo": "../assets/images/logo-placeholder.png",
+    "welcomeImage": "../assets/images/Welcom.png",
+    "laundryImage": "../assets/images/laundry-placeholder.png",
+    "version": "1.0.0",
+    "defaultAddress": "My Home",
+    "phonePrefix": "+91"
+  },
+  "greetings": {
+    "morning": "Good Morning",
+    "afternoon": "Good Afternoon",
+    "evening": "Good Evening"
+  },
+  "business": {
+    "minOrderAmount": 120,
+    "deliveryTime": "24-hours",
+    "serviceFeeFrom": 20,
+    "currency": "₹"
+  },
+  "validation": {
+    "phonePattern": "^[6-9]\\d{9}$",
+    "phoneMaxLength": 10,
+    "otpLength": 6
+  },
+  "colors": {
+    "primary": "#007bff",
+    "secondary": "#004aad",
+    "success": "#5cb85c",
+    "warning": "#f0ad4e",
+    "danger": "#d9534f",
+    "info": "#5bc0de"
+  },
+  "service": {
+    "title": "Service Overview",
+    "priceListTitle": "Price list",
+    "priceListSubtitle": "Price per weight",
+    "notSureTitle": "Not sure how much you have?",
+    "buttons": {
+      "learnMore": "Learn more",
+      "scheduleCollection": "Schedule a collection"
+    }
+  }
+}

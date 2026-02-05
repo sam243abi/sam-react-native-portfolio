@@ -1,0 +1,100 @@
+{
+  "serviceDetails": {
+    "title": "Full Service Price List",
+    "currency": "₹",
+    "sections": [
+      {
+        "id": "wash_fold",
+        "title": "Wash & Fold",
+        "priceTypeLabel": "Price per Kg",
+        "items": [
+          {
+            "id": "wf_standard",
+            "title": "Wash & Fold",
+            "price": 199,
+            "unit": "/Kg",
+            "description": "Standard wash and machine dry."
+          }
+        ]
+      },
+      {
+        "id": "wash_iron",
+        "title": "Wash & Iron",
+        "priceTypeLabel": "Price per Kg",
+        "items": [
+          {
+            "id": "wi_standard",
+            "title": "Wash & Iron",
+            "price": 249,
+            "unit": "/Kg",
+            "description": "Standard wash, machine dry, and pressing."
+          }
+        ]
+      },
+      {
+        "id": "ironing_price_list",
+        "title": "Ironing Price List",
+        "priceTypeLabel": "Price per item",
+        "filters": ["All", "Formal", "Traditional"],
+        "items": [
+          {
+            "id": "iron_shirt_pant",
+            "title": "Shirt/Pant",
+            "price": 99,
+            "unit": "/Pc",
+            "category": "Formal"
+          },
+          {
+            "id": "iron_dhoti",
+            "title": "Dhoti",
+            "price": 209,
+            "unit": "/Pc",
+            "category": "Traditional"
+          },
+          {
+            "id": "iron_saree",
+            "title": "Saree",
+            "price": 199,
+            "unit": "/Pc",
+            "category": "Traditional"
+          },
+          {
+            "id": "iron_blouse",
+            "title": "Blouse",
+            "price": 149,
+            "unit": "/Pc",
+            "category": "Formal"
+          },
+          {
+            "id": "iron_choli_lehanga",
+            "title": "Choli/Lehanga",
+            "price": 899,
+            "unit": "/Pc",
+            "category": "Traditional"
+          },
+          {
+            "id": "iron_wedding_dress",
+            "title": "Wedding Dress",
+            "price": 499,
+            "unit": "/Pc",
+            "category": "Formal"
+          }
+        ]
+      }
+    ],
+    "additionalNote": {
+      "title": "Additional Note",
+      "text": "Sed dictum dictum tortor. Aenean non nulla sed sem euismod vehicula. Donec a tincidunt neque."
+    },
+    "actions": {
+      "addToCart": {
+        "text": "ADD TO CART",
+        "color": "#08A6B0"
+      },
+      "schedule": {
+        "text": "SCHEDULE NOW",
+        "color": "#F28B66"
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Cart",
+  "items": [
+    {
+      "id": "wash_fold_1",
+      "service": "Wash & Fold",
+      "icons": [
+  { "name": "water-outline", "color": "#1E88E5" },
+  { "name": "flame-outline", "color": "#E53935" },
+  { "name": "leaf-outline", "color": "#4CAF50" }
+],
+      "badge": "1 kg",
+      "unitPrice": 75,
+      "estimatedPrice": 95,
+      "currency": "₹"
+    }
+  ],
+  "coupon": { "label": "Add Coupon", "placeholder": "Enter the coupon code", "apply": "Apply" },
+  "summary": {
+    "title": "Cart Summary",
+    "rows": [
+      { "label": "Total Item", "value": "1" },
+      { "label": "Weight", "value": "1 Kg" },
+      { "label": "Item Price", "value": 95, "currency": "₹" },
+      { "label": "Delivery Charge", "value": 20, "currency": "₹" },
+      { "label": "Discount", "value": -10, "currency": "₹" }
+    ],
+    "estimatedTotalLabel": "Estimated Total :",
+    "currency": "₹"
+  },
+  "schedule": { "text": "SCHEDULE" }
+}
+
+

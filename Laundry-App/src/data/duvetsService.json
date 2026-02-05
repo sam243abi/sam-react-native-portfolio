@@ -1,0 +1,39 @@
+{
+  "serviceDetails": {
+    "id": "duvets",
+    "title": "Duvets",
+    "subtitle": "Price per item",
+    "currency": "₹",
+    "quantity": { "min": 1, "max": 10, "default": 1 },
+    "items": [
+      { "id": "towel", "title": "Towel", "price": 59, "unit": "/Pc" },
+      { "id": "bed_cover_single", "title": "Bed cover (Single)", "price": 219, "unit": "/Pc" },
+      { "id": "bed_cover_double", "title": "Bed cover (Double)", "price": 319, "unit": "/Pc" },
+      { "id": "bed_sheet_single", "title": "Bed sheet (Single)", "price": 129, "unit": "/Pc" },
+      { "id": "bed_sheet_double", "title": "Bed sheet (Double)", "price": 199, "unit": "/Pc" },
+      { "id": "pillow_covers", "title": "Pillow covers", "price": 49, "unit": "/Pc" },
+      { "id": "quilt_single", "title": "Quilt (Single)", "price": 369, "unit": "/Pc" },
+      { "id": "quilt_double", "title": "Quilt (Double)", "price": 469, "unit": "/Pc" },
+      { "id": "curtains", "title": "Curtains", "price": 229, "unit": "/Pc" },
+      { "id": "sofa_covers", "title": "Sofa covers", "price": 99, "unit": "/Pc" },
+      { "id": "mats", "title": "Mats", "price": 49, "unit": "/Pc" }
+    ],
+    "additionalNote": {
+      "title": "Additional Note",
+      "text": "Sed dictum dictum tortor. Aenean non nulla sed sem euismod vehicula. Donec a tincidunt neque."
+    },
+    "actions": {
+      "addToCart": { "text": "ADD TO CART", "color": "#08A6B0" },
+      "schedule": { "text": "SCHEDULE NOW", "color": "#F28B66" }
+    },
+    "washFoldCard": {
+      "id": "duvets",
+      "title": "Duvets",
+      "tags": [
+        { "label": "WASH", "color": "#4385F5" },
+        { "label": "TUMBLE-DRY", "color": "#DB9620" }
+      ],
+      "description": "Sed dictum dictum tortor. Aenean non nulla sed sem euismod vehicula. Donec a tincidunt neque."
+    }
+  }
+}

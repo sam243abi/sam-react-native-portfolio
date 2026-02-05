@@ -1,0 +1,78 @@
+{
+  "serviceDetails": {
+    "id": "wash-iron",
+    "title": "Wash & Iron",
+    "subtitle": "For everyday laundry that requires ironing",
+    "basePrice": 105,
+    "currency": "₹",
+    "unit": "/Kg",
+    "quantity": {
+      "min": 1,
+      "max": 10,
+      "default": 1
+    },
+    "washingTemperature": {
+      "title": "Washing Temperature",
+      "options": [
+        {
+          "id": "normal",
+          "label": "Normal",
+          "description": "30°C - Standard wash",
+          "price": 0,
+          "selected": true
+        },
+        {
+          "id": "hot",
+          "label": "45°C",
+          "description": "Hot wash for better cleaning",
+          "price": 10,
+          "selected": false,
+          "icon": "flame"
+        }
+      ]
+    },
+    "addOns": {
+      "title": "Add-on",
+      "options": [
+        {
+          "id": "eco-detergent",
+          "label": "Eco-Friendly Detergent",
+          "description": "Environmentally safe cleaning",
+          "price": 15,
+          "selected": false,
+          "icon": "leaf"
+        },
+        {
+          "id": "fabric-softener",
+          "label": "Fabric Softener",
+          "description": "Extra softness for your clothes",
+          "price": 20,
+          "selected": false,
+          "icon": "flower"
+        }
+      ]
+    },
+    "additionalNote": {
+      "title": "Additional Note",
+      "text": "We handle your garments with care. Delicate fabrics are treated separately."
+    },
+    "estimatedPrice": {
+      "title": "Estimated price",
+      "currency": "₹"
+    },
+    "actions": {
+      "addToCart": { "text": "ADD TO CART", "color": "#08A6B0" },
+      "schedule": { "text": "SCHEDULE NOW", "color": "#F28B66" }
+    },
+    "washFoldCard": {
+    "id": "wash-fold",
+    "title": "Wash & Iron",
+    "tags": [
+      { "label": "WASH", "color": "#4385F5" },
+      { "label": "IRONING", "color":"#CB7879"},
+      { "label": "IN A BAG", "color": "#5A9C64" }
+    ],
+    "description": "Sed dictum dictum tortor. Aenean non nulla sed sem euismod vehicula. Donec a tincidunt neque."
+  }
+  }
+}

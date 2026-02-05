@@ -1,0 +1,20 @@
+{
+  "otpVerification": {
+    "titles": {
+      "header1": "Enter OTP Almost There!"
+    },
+    "subtitle": "Enter the OTP sent to your phone to verify your number.",
+    "buttons": {
+      "continue": "Continue",
+      "goBack": "Go Back"
+    },
+    "messages": {
+      "resend": "Send Again",
+      "incompleteOtp": "Please enter complete OTP"
+    },
+    "timer": {
+      "initialSeconds": 60
+    }
+  }
+}
+

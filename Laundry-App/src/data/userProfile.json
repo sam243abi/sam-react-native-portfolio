@@ -1,0 +1,40 @@
+{
+  "profileForm": {
+    "title": "Complete Your Profile",
+    "subtitle": "Fill in the details below so we can tailor our service just for you!",
+    "fields": [
+      {
+        "name": "firstName",
+        "placeholder": "First Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "lastName",
+        "placeholder": "Last Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "email",
+        "placeholder": "Email",
+        "type": "email",
+        "icon": "email",
+        "iconFamily": "MaterialIcons",
+        "required": true
+      },
+      {
+        "name": "dob",
+        "placeholder": "Date of birth",
+        "type": "date",
+        "icon": "calendar-today",
+        "iconFamily": "MaterialIcons",
+        "required": false
+      }
+    ],
+    "buttons": {
+      "next": "Next",
+      "goBack": "Go Back"
+    }
+  }
+}

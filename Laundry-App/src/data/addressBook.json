@@ -1,0 +1,47 @@
+{
+  "addressBook": {
+    "title": "Address book"
+  },
+  "locationOverlay": {
+    "title": "Select location"
+  },
+  "searchPlaceholder": "Search for area, street name...",
+  "useCurrent": {
+    "title": "Use current location",
+    "address": "44/1 Bharat Apartment 4C, 5th Main Road Jayanagar Bangalore 560041."
+  },
+  "addNew": { "title": "Add new address" },
+  "savedHeader": "Your saved address",
+  "collectionMethods": [
+    { "id": "in_person", "label": "In person", "icon": "person" },
+    { "id": "at_door", "label": "At door", "icon": "home" },
+    { "id": "reception", "label": "Reception", "icon": "business" }
+  ],
+  "deliveryMethods": [
+    { "id": "in_person", "label": "In person", "icon": "person" },
+    { "id": "at_door", "label": "At door", "icon": "home" },
+    { "id": "reception", "label": "Reception", "icon": "business" }
+  ],
+  "addresses": [
+    {
+      "id": "home",
+      "label": "Home",
+      "isCurrent": true,
+      "address": "44/1 Bharat Apartment 4C, 5th Main Road Jayanagar Bangalore 560041.",
+      "phone": "+91 8567654321",
+      "collectionMethod": "reception",
+      "deliveryMethod": "in_person"
+    },
+    {
+      "id": "office",
+      "label": "Office",
+      "isCurrent": false,
+      "address": "44/1 Bharat Apartment 4C, 5th Main Road Jayanagar Bangalore 560041.",
+      "phone": "+91 8567654321",
+      "collectionMethod": "reception",
+      "deliveryMethod": "in_person"
+    }
+  ]
+}
+
+

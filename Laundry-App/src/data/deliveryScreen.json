@@ -1,0 +1,20 @@
+{
+  "titles": {
+    "header1": "Where Should We Deliver?",
+    "header2": "Enter your address so we can bring everything right to your door."
+  },
+  "placeholders": {
+    "house": "Apartment/ House no.",
+    "floor": "Floor",
+    "street": "Area/Street",
+    "pincode": "Pincode",
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "landmark": "Landmark (Optional)"
+  },
+  "buttons": {
+    "unlock": "Unlock your Delivery",
+    "goBack": "Go Back"
+  }
+}
+

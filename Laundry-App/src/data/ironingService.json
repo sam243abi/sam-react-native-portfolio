@@ -1,0 +1,38 @@
+{
+  "serviceDetails": {
+    "id": "ironing",
+    "title": "Ironing Price List",
+    "subtitle": "Price per item",
+    "currency": "₹",
+    "quantity": { "min": 1, "max": 50, "default": 1 },
+    "filters": ["All", "Formal", "Traditional"],
+    "items": [
+      { "id": "shirt_pant", "title": "Shirt/Pant", "price": 99, "unit": "/Pc", "category": "Formal" },
+      { "id": "dhoti", "title": "Dhoti", "price": 209, "unit": "/Pc", "category": "Traditional" },
+      { "id": "saree", "title": "Saree", "price": 199, "unit": "/Pc", "category": "Traditional" },
+      { "id": "blouse", "title": "Blouse", "price": 149, "unit": "/Pc", "category": "Traditional" },
+      { "id": "choli", "title": "Choli/Lehanga", "price": 299, "unit": "/Pc", "category": "Traditional" },
+      { "id": "wedding_dress", "title": "Wedding Dress", "price": 499, "unit": "/Pc", "category": "Traditional" }
+    ],
+    "additionalNote": {
+      "title": "Additional Note",
+      "text": "Please ensure pockets are emptied. We use gentle cycles unless specified."
+    },
+    "actions": {
+      "addToCart": { "text": "ADD TO CART", "color": "#08A6B0" },
+      "schedule": { "text": "SCHEDULE NOW", "color": "#F28B66" }
+    },
+    "washFoldCard": {
+    "id": "wash-fold",
+    "title": "Wash & Fold",
+    "tags": [
+      { "label": "WASH", "color": "#4385F5" },
+      { "label": "TUMBLE-DRY", "color": "#DB9620" },
+      { "label": "IN A BAG", "color": "#5A9C64" }
+    ],
+    "description": "Sed dictum dictum tortor. Aenean non nulla sed sem euismod vehicula. Donec a tincidunt neque."
+  }
+  }
+}
+
+

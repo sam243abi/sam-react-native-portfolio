@@ -1,0 +1,25 @@
+{
+  "login": {
+    "welcomeText": "Welcome Back To",
+    "brandName": "99 mins wash",
+    "phonePrefix": "+91",
+    "placeholders": {
+      "phone": "Enter your Mobile number"
+    },
+    "buttons": {
+      "continue": "Continue",
+      "signUp": "Sign Up"
+    },
+    "messages": {
+      "noAccount": "Don't have an account?",
+      "goBack": "Go Back"
+    },
+    "images": {
+      "welcome": "../assets/images/Welcom.png"
+    },
+    "validation": {
+      "phonePattern": "^\\d{10}$",
+      "maxLength": 10
+    }
+  }
+}

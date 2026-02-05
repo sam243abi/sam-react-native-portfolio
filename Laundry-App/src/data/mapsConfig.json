@@ -1,0 +1,134 @@
+{
+  "mapConfig": {
+    "initialRegion": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "latitudeDelta": 0.05,
+      "longitudeDelta": 0.05,
+      "zoom": 12
+    },
+    "mapStyle": "standard",
+    "showsUserLocation": true,
+    "showsMyLocationButton": true,
+    "showsCompass": true,
+    "showsScale": true
+  },
+  "locations": [
+    {
+      "id": 1,
+      "name": "Mahathi Flats",
+      "area": "Mahathi Flats Complex",
+      "city": "Jayanagar, Bangalore",
+      "fullAddress": "Mahathi Flats, 4th Block, Jayanagar, Bangalore - 560011",
+      "coordinates": {
+        "latitude": 12.9279,
+        "longitude": 77.5838
+      },
+      "type": "residential",
+      "isActive": true,
+      "amenities": ["parking", "security", "elevator"]
+    },
+    {
+      "id": 2,
+      "name": "Antans Grace",
+      "area": "Antans Grace Apartments",
+      "city": "BTM Layout, Bangalore",
+      "fullAddress": "Antans Grace Apartments, 2nd Stage, BTM Layout, Bangalore - 560076",
+      "coordinates": {
+        "latitude": 12.9165,
+        "longitude": 77.6101
+      },
+      "type": "residential",
+      "isActive": true,
+      "amenities": ["parking", "gym", "swimming_pool"]
+    },
+    {
+      "id": 3,
+      "name": "Shree Gk Flats",
+      "area": "Shree GK Residency",
+      "city": "Koramangala, Bangalore",
+      "fullAddress": "Shree GK Residency, 5th Block, Koramangala, Bangalore - 560095",
+      "coordinates": {
+        "latitude": 12.9352,
+        "longitude": 77.6245
+      },
+      "type": "residential",
+      "isActive": true,
+      "amenities": ["parking", "security", "garden"]
+    },
+    {
+      "id": 4,
+      "name": "Arun Excellence",
+      "area": "Arun Excellence Complex",
+      "city": "Electronic City, Bangalore",
+      "fullAddress": "Arun Excellence Complex, Phase 1, Electronic City, Bangalore - 560100",
+      "coordinates": {
+        "latitude": 12.8456,
+        "longitude": 77.6603
+      },
+      "type": "residential",
+      "isActive": true,
+      "amenities": ["parking", "security", "clubhouse"]
+    },
+    {
+      "id": 5,
+      "name": "Dr Kennedys Saraswati",
+      "area": "Dr Kennedys Saraswati Apartments",
+      "city": "HSR Layout, Bangalore",
+      "fullAddress": "Dr Kennedys Saraswati Apartments, Sector 2, HSR Layout, Bangalore - 560102",
+      "coordinates": {
+        "latitude": 12.9081,
+        "longitude": 77.6476
+      },
+      "type": "residential",
+      "isActive": true,
+      "amenities": ["parking", "security", "playground"]
+    },
+    {
+      "id": 6,
+      "name": "Brigade Millennium",
+      "area": "Brigade Millennium Towers",
+      "city": "JP Nagar, Bangalore",
+      "fullAddress": "Brigade Millennium, 7th Phase, JP Nagar, Bangalore - 560078",
+      "coordinates": {
+        "latitude": 12.8988,
+        "longitude": 77.5731
+      },
+      "type": "residential",
+      "isActive": true,
+      "amenities": ["parking", "gym", "security", "swimming_pool"]
+    }
+  ],
+  "searchSuggestions": [
+    "Jayanagar, Bangalore",
+    "BTM Layout, Bangalore", 
+    "Koramangala, Bangalore",
+    "Electronic City, Bangalore",
+    "HSR Layout, Bangalore",
+    "JP Nagar, Bangalore",
+    "Indiranagar, Bangalore",
+    "Whitefield, Bangalore",
+    "Marathahalli, Bangalore",
+    "Hebbal, Bangalore"
+  ],
+  "mapTexts": {
+    "searchPlaceholder": "Search for a new area, locality",
+    "deliveryMessage": "Your order will be delivered here",
+    "movePin": "Move pin to your exact location",
+    "selectLocation": "Tap on markers or map to select location",
+    "updatingLocation": "Updating your delivery location...",
+    "pleaseWait": "Please wait...",
+    "currentLocation": "Use current location",
+    "addMoreDetails": "ADD MORE ADDRESS DETAILS"
+  },
+  "mapTheme": {
+    "primaryColor": "#08A6B0",
+    "secondaryColor": "#FF6B35",
+    "backgroundColor": "#2C3E50",
+    "streetColor": "#34495E",
+    "markerColor": "#007AFF",
+    "selectedMarkerColor": "#FF6B35",
+    "textColor": "#333333",
+    "lightTextColor": "#666666"
+  }
+}

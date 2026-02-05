@@ -1,0 +1,94 @@
+{
+  "bottomNavigation": [
+    {
+      "id": "home",
+      "route": "Dashboard",
+      "icon": "home-outline",
+      "iconFamily": "Ionicons",
+      "activeColor": "#007bff",
+      "inactiveColor": "#000000"
+    },
+    {
+      "id": "orders",
+      "route": "OrderList",
+      "icon": "receipt-outline",
+      "iconFamily": "Ionicons",
+      "activeColor": "#007bff",
+      "inactiveColor": "#000000"
+    },
+    {
+      "id": "profile",
+      "route": "ProfileList",
+      "icon": "menu-outline",
+      "iconFamily": "Ionicons",
+      "activeColor": "#007bff",
+      "inactiveColor": "#000000"
+    }
+  ],
+  "stackNavigator": {
+    "initialRoute": "Login",
+    "screens": [
+      {
+        "name": "PhoneVerification",
+        "component": "PhoneVerification",
+        "options": { "headerShown": false }
+      },
+      {
+        "name": "OTP",
+        "component": "OtpVerification",
+        "options": { "headerShown": false }
+      },
+      {
+        "name": "Profile",
+        "component": "Profile",
+        "options": { "headerShown": false }
+      },
+      {
+        "name": "Delivery",
+        "component": "Delivery",
+        "options": { "headerShown": false }
+      },
+      {
+        "name": "Login",
+        "component": "Login",
+        "options": { "headerShown": false }
+      },
+      {
+        "name": "LoginOtp",
+        "component": "LoginOtp",
+        "options": { "headerShown": false }
+      },
+      {
+        "name": "Dashboard",
+        "component": "Dashboard",
+        "options": { "headerShown": false }
+      },
+      {
+        "name": "Service",
+        "component": "Service",
+        "options": { "headerShown": false }
+      },
+      {
+        "name": "CollectionDelivery",
+        "component": "CollectionDelivery",
+        "options": { "headerShown": false }
+      },
+      {
+        "name": "OrderList",
+        "component": "OrderList",
+        "options": { "headerShown": false }
+      },
+      {
+        "name": "ProfileList",
+        "component": "ProfileList",
+        "options": { "headerShown": false }
+      }
+      ,
+      {
+        "name": "AddressBook",
+        "component": "AddressBook",
+        "options": { "headerShown": false }
+      }
+    ]
+  }
+}

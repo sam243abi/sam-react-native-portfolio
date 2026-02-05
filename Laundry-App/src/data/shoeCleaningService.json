@@ -1,0 +1,29 @@
+{
+  "serviceDetails": {
+    "id": "shoe-cleaning",
+    "title": "Shoe Cleaning",
+    "subtitle": "Price per pair",
+    "currency": "₹",
+    "quantity": { "min": 1, "max": 20, "default": 1 },
+    "items": [
+      { "id": "shoe_cleaning_service", "title": "Shoe Cleaning", "price": 150, "unit": "/Pair" }
+    ],
+    "additionalNote": {
+      "title": "Additional Note",
+      "text": "Sed dictum dictum tortor. Aenean non nulla sed sem euismod vehicula. Donec a tincidunt neque."
+    },
+    "actions": {
+      "addToCart": { "text": "ADD TO CART", "color": "#08A6B0" },
+      "schedule": { "text": "SCHEDULE NOW", "color": "#F28B66" }
+    },
+    "washFoldCard": {
+      "id": "shoe-cleaning",
+      "title": "Shoe Cleaning",
+      "tags": [
+        { "label": "CLEANING", "color": "#FF9800" },
+        { "label": "POLISH", "color": "#795548" }
+      ],
+      "description": "Sed dictum dictum tortor. Aenean non nulla sed sem euismod vehicula. Donec a tincidunt neque."
+    }
+  }
+}

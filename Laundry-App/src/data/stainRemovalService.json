@@ -1,0 +1,30 @@
+{
+  "serviceDetails": {
+    "id": "stain-removal",
+    "title": "Stain Removal",
+    "subtitle": "Price per item",
+    "currency": "₹",
+    "quantity": { "min": 1, "max": 50, "default": 1 },
+    "items": [
+      { "id": "stain_removal_service", "title": "Stain-removal", "price": 30, "unit": "/Pc" }
+    ],
+    "additionalNote": {
+      "title": "Additional Note",
+      "text": "Sed dictum dictum tortor. Aenean non nulla sed sem euismod vehicula. Donec a tincidunt neque."
+    },
+    "actions": {
+      "addToCart": { "text": "ADD TO CART", "color": "#08A6B0" },
+      "schedule": { "text": "SCHEDULE NOW", "color": "#F28B66" }
+    },
+    "washFoldCard": {
+      "id": "stain-removal",
+      "title": "Stain Removal",
+      "tags": [
+        { "label": "STAIN-REMOVAL", "color": "#8BC34A" },
+        { "label": "WASH", "color": "#4385F5" },
+        { "label": "TUMBLE-DRY", "color": "#DB9620" }
+      ],
+      "description": "Sed dictum dictum tortor. Aenean non nulla sed sem euismod vehicula. Donec a tincidunt neque."
+    }
+  }
+}

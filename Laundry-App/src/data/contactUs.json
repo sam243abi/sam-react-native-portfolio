@@ -1,0 +1,16 @@
+{
+  "title": "Contact us",
+  "brand": "99 mins wash & dry",
+  "phoneLabel": "Phone number",
+  "phone": "85 xxxx xxxx",
+  "emailLabel": "Email address",
+  "email": "99minswasg@mail",
+  "aboutTitle": "About us",
+  "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla adipiscing eu, feugiat tellus dis. Lacus semper turpis lectus elementum. Non id convallis arcu sit nunc imperdiet vel tellus. Viverra elementum lobortis mi aliquam nunc ipsum volutpat natoque.",
+  "cta": {
+    "text": "Rate us on google",
+    "icon": "star-outline",
+    "iconFamily": "Ionicons",
+    "url": "https://www.google.com/maps"
+  }
+}

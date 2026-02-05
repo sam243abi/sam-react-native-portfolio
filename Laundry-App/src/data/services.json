@@ -1,0 +1,119 @@
+{
+  "services": [
+    {
+      "id": "wash",
+      "title": "Wash",
+      "subtitle": "For everyday laundry, bedsheets and towels.",
+      "deliveryTime": "99 mins",
+      "tags": [
+        {
+          "label": "WASH",
+          "color": "#007bff"
+        },
+        {
+          "label": "TUMBLE-DRY",
+          "color": "#f0ad4e"
+        },
+        {
+          "label": "IN A BAG",
+          "color": "#5cb85c"
+        }
+      ],
+      "price": "₹120/kg",
+      "route": "Service"
+    },
+    {
+      "id": "wash-press",
+      "title": "Wash & Press",
+      "subtitle": "For everyday laundry that requires ironing.",
+      "tags": [
+        {
+          "label": "WASH",
+          "color": "#007bff"
+        },
+        {
+          "label": "TUMBLE-DRY",
+          "color": "#f0ad4e"
+        },
+        {
+          "label": "IRONING",
+          "color": "#d9534f"
+        },
+        {
+          "label": "ON-HANGERS",
+          "color": "#5bc0de"
+        }
+      ],
+      "price": "₹180/kg",
+      "route": "Service"
+    },
+    {
+      "id": "dry-clean",
+      "title": "Dry Cleaning",
+      "subtitle": "For delicate items and fabrics.",
+      "tags": [
+        {
+          "label": "DRY-CLEANING",
+          "color": "#8e44ad"
+        },
+        {
+          "label": "IRONING",
+          "color": "#d9534f"
+        },
+        {
+          "label": "ON-HANGERS",
+          "color": "#5bc0de"
+        }
+      ],
+      "price": "₹180/kg",
+      "route": "Service"
+    }
+  ],
+  "footerNotes": [
+    {
+      "icon": "time-outline",
+      "iconFamily": "Ionicons",
+      "color": "#007bff",
+      "text": "Free 24-hours delivery"
+    },
+    {
+      "icon": "currency-inr",
+      "iconFamily": "MaterialCommunityIcons",
+      "color": "#007bff",
+      "text": "₹120 minimum order"
+    },
+    {
+      "icon": "hand-holding-usd",
+      "iconFamily": "FontAwesome5",
+      "color": "#007bff",
+      "text": "Service fee from ₹20"
+    }
+  ],
+  "serviceCategories": ["Wash", "Wash & Press", "Dry-cleaning", "Ironing", "Duvets", "Carpet Cleaning"],
+  "currentService": {
+    "id": "wash",
+    "title": "Wash",
+    "subtitle": "For Everyday laudry,\nbedsheets and towels.",
+    "priceOptions": [
+      {
+        "id": "mixed",
+        "title": "Mixed wash (up to 6kg)",
+        "description": "Light and dark clothes washed together at 30°C. You can request 45°C instead.",
+        "price": "₹1000"
+      },
+      {
+        "id": "separate",
+        "title": "Separate wash (up to 12kg of light and dark clothes)",
+        "description": "We'll separate the items for you and wash at 30°C. Starts with two loads. You can request 45°C instead.",
+        "price": "₹1000"
+      }
+    ],
+    "additionalInfo": {
+      "extraKgPrice": "₹120",
+      "exampleLoad": {
+        "description": "One load of 6kg is about:",
+        "items": ["12 shirts", "3 trousers", "7 underwear", "7 pairs of socks"]
+      }
+    }
+  }
+}

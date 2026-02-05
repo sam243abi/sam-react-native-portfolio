@@ -1,0 +1,53 @@
+{
+  "header": {
+    "showStatusBarTime": "9:41",
+    "greetingPrefix": "Good morning!",
+    "locationLabel": "Location",
+    "locationIcon": "location-outline",
+    "profileImageUri": "src/assets/images/Profile-Image.png"
+  },
+  "hero": {
+    "icon": "cube-outline",
+    "imageUri": "src/assets/images/hero-icon.png",
+    "backgroundColor": "#08A6B0",
+    "iconBackgroundColor": "#23C1BA",
+    "title": "Your laundry is ready today",
+    "subtitle": "In 10 minutes we will deliver it"
+  },
+  "promos": [
+    {
+      "id": "promo-wash",
+      "title": "40% OFF",
+      "subtitle": "On First Wash Clothes",
+      "badge": "Limited Offer",
+      "colors": ["#ffb887", "#f58b4a"]
+    },
+    {
+      "id": "promo-iron",
+      "title": "20% OFF",
+      "subtitle": "On First Ironing Clothes",
+      "badge": "Limited Offer",
+      "colors": ["#7eb2ff", "#1e6cff"]
+    }
+  ],
+  "servicesGrid": {
+    "title": "Our Services",
+    "items": [
+      { "serviceId": "99-mins-wash", "images": ["src/assets/images/99mins.png"], "label": "Express Laundary", "imageStyle": "contained" },
+      { "serviceId": "dry-clean", "images": ["src/assets/images/DryCleaning.png"], "label": "Dry Cleaning" },
+      { "serviceId": "wash", "images": ["src/assets/images/WashFold.png"], "label": "Wash & Fold" },
+      { "serviceId": "iron", "images": ["src/assets/images/ironing.png"], "label": "Ironing" },
+      { "serviceId": "wash-iron", "images": ["src/assets/images/WashIron.png"], "label": "Wash & Iron" },
+      { "serviceId": "duvets", "images": ["src/assets/images/Duvets.png"], "label": "Household Spa" },
+      { "serviceId": "starching", "images": ["src/assets/images/ironing.png"], "label": "Starching" },
+      { "serviceId": "stain-removal", "images": ["src/assets/images/StainRemoval.png"], "label": "Stain Removal" },
+      { "serviceId": "shoe-cleaning", "images": ["src/assets/images/StainRemoval.png"], "label": "Shoe Cleaning" },
+      { "serviceId": "helmet-cleaning", "images": ["src/assets/images/StainRemoval.png"], "label": "Helmet Cleaning" }
+    ]
+  },
+  "cartBanner": {
+    "buttonText": "View Cart",
+    "itemCountText": "1 item"
+  }
+}
+

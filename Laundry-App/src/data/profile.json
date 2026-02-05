@@ -1,0 +1,134 @@
+{
+  "user": {
+    "name": "Bichu Jayan",
+    "email": "bichu@gmail.com",
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  "sections": [
+    {
+      "id": "orders",
+      "title": "Orders",
+      "items": [
+        {
+          "id": "all-orders",
+          "text": "All Orders",
+          "icon": "shopping-bag",
+          "iconFamily": "MaterialIcons",
+          "route": "OrderList"
+        },
+        {
+          "id": "address-book",
+          "text": "Address Book",
+          "icon": "location-on",
+          "iconFamily": "MaterialIcons",
+          "route": "AddressBook"
+        },
+        {
+          "id": "transaction-history",
+          "text": "Transaction History",
+          "icon": "receipt",
+          "iconFamily": "MaterialIcons"
+        }
+      ]
+    },
+    {
+      "id": "customer-support",
+      "title": "Customer Support",
+      "items": [
+        {
+          "id": "contact-us",
+          "text": "Contact Us",
+          "icon": "call",
+          "iconFamily": "MaterialIcons",
+          "route": "ContactUs"
+        },
+        {
+          "id": "chat-expert",
+          "text": "Chat with Expert",
+          "icon": "chat",
+          "iconFamily": "MaterialIcons"
+        },
+        {
+          "id": "faq",
+          "text": "FAQ",
+          "icon": "help-outline",
+          "iconFamily": "MaterialIcons"
+        },
+        {
+          "id": "locate-us",
+          "text": "Locate Us",
+          "icon": "location-searching",
+          "iconFamily": "MaterialIcons"
+        }
+      ]
+    },
+    {
+      "id": "rewards",
+      "title": "Rewards",
+      "items": [
+        {
+          "id": "coupons",
+          "text": "Collected Coupons",
+          "icon": "card-giftcard",
+          "iconFamily": "MaterialIcons"
+        },
+        {
+          "id": "referrals",
+          "text": "Referrals",
+          "icon": "group",
+          "iconFamily": "MaterialIcons"
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal",
+      "items": [
+        {
+          "id": "about-us",
+          "text": "About Us",
+          "icon": "info",
+          "iconFamily": "MaterialIcons"
+        },
+        {
+          "id": "terms-conditions",
+          "text": "Terms & Conditions",
+          "icon": "description",
+          "iconFamily": "MaterialIcons"
+        },
+        {
+          "id": "cancellation-policy",
+          "text": "Cancellation & Refund Policy",
+          "icon": "cancel",
+          "iconFamily": "MaterialIcons"
+        }
+      ]
+    }
+  ],
+  "bottomNavigation": [
+    {
+      "id": "home",
+      "route": "Dashboard",
+      "icon": "home-outline",
+      "iconFamily": "Ionicons",
+      "activeColor": "#000",
+      "inactiveColor": "#000"
+    },
+    {
+      "id": "orders",
+      "route": "OrderList",
+      "icon": "receipt-outline",
+      "iconFamily": "Ionicons",
+      "activeColor": "#000",
+      "inactiveColor": "#000"
+    },
+    {
+      "id": "profile",
+      "route": "ProfileList",
+      "icon": "menu-outline",
+      "iconFamily": "Ionicons",
+      "activeColor": "#007bff",
+      "inactiveColor": "#000"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "profileScreen": {
+    "titles": {
+      "header1": "Complete Your Profile",
+      "header2": "Fill in the details below so we can tailor our service just for you!"
+    },
+    "placeholders": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "dob": "Date of birth",
+      "gender": "Gender"
+    },
+    "buttons": {
+      "next": "Next",
+      "goBack": "Go Back"
+    }
+  }
+}
+

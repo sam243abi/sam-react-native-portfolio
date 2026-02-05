@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# Android build
+android/.gradle/
+android/app/build/
+
+# iOS build
+ios/Pods/
+ios/build/
+
+# Expo (safe even if unused)
+.expo/
+dist/
+web-build/
+
+# Metro
+.metro-health-check*
+
+# debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS / system
+.DS_Store
+.vscode/
+.idea/
+
+# env files
+.env
+

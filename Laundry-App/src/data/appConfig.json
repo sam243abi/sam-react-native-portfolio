@@ -1,0 +1,11 @@
+{
+  "user": {
+    "defaultName": "Bichu Jayan",
+    "defaultAddress": "My Home"
+  },
+  "greetings": {
+    "morning": "Good Morning",
+    "afternoon": "Good Afternoon",
+    "evening": "Good Evening"
+  }
+}

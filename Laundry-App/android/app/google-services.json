@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "120433377442",
+    "project_id": "minswash-c72c7",
+    "storage_bucket": "minswash-c72c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120433377442:android:b33aad54416f4e704397fb",
+        "android_client_info": {
+          "package_name": "com.samabi243.laundaryapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUm3QX08iPUUw__93-UY2kKdev1D3_ji4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

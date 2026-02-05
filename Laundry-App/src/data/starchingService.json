@@ -1,0 +1,30 @@
+{
+  "serviceDetails": {
+    "id": "starching",
+    "title": "Starching",
+    "subtitle": "Price per item",
+    "currency": "₹",
+    "quantity": { "min": 1, "max": 50, "default": 1 },
+    "items": [
+      { "id": "starching_service", "title": "Starching", "price": 25, "unit": "/Pc" }
+    ],
+    "additionalNote": {
+      "title": "Additional Note",
+      "text": "Sed dictum dictum tortor. Aenean non nulla sed sem euismod vehicula. Donec a tincidunt neque."
+    },
+    "actions": {
+      "addToCart": { "text": "ADD TO CART", "color": "#08A6B0" },
+      "schedule": { "text": "SCHEDULE NOW", "color": "#F28B66" }
+    },
+    "washFoldCard": {
+      "id": "starching",
+      "title": "Starching",
+      "tags": [
+        { "label": "WASH", "color": "#4385F5" },
+        { "label": "STARCHING", "color": "#B794D4" },
+        { "label": "TUMBLE-DRY", "color": "#DB9620" }
+      ],
+      "description": "Sed dictum dictum tortor. Aenean non nulla sed sem euismod vehicula. Donec a tincidunt neque."
+    }
+  }
+}

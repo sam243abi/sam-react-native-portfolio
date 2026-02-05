@@ -1,0 +1,25 @@
+{
+  "phoneVerification": {
+    "titles": {
+      "header1": "Verify Your Phone Number",
+      "header2": "Let's Get Started!"
+    },
+    "brandName": "99 Mins Wash",
+    "placeholders": {
+      "phone": "Enter your Mobile number"
+    },
+    "buttons": {
+      "continue": "Continue",
+      "login": "Login"
+    },
+    "messages": {
+      "terms": "Agree to the Terms of Use and Privacy Policy",
+      "invalid": "Please enter a valid phone number and accept the terms"
+    },
+    "validation": {
+      "phonePattern": "^\\d{10}$",
+      "maxLength": 10
+    }
+  }
+}
+

@@ -1,0 +1,29 @@
+{
+  "serviceDetails": {
+    "id": "helmet-cleaning",
+    "title": "Helmet Cleaning",
+    "subtitle": "Price per item",
+    "currency": "₹",
+    "quantity": { "min": 1, "max": 20, "default": 1 },
+    "items": [
+      { "id": "Helmet_cleaning_service", "title": "Helmet Cleaning", "price": 200, "unit": "/Item" }
+    ],
+    "additionalNote": {
+      "title": "Additional Note",
+      "text": "Sed dictum dictum tortor. Aenean non nulla sed sem euismod vehicula. Donec a tincidunt neque."
+    },
+    "actions": {
+      "addToCart": { "text": "ADD TO CART", "color": "#08A6B0" },
+      "schedule": { "text": "SCHEDULE NOW", "color": "#F28B66" }
+    },
+    "washFoldCard": {
+      "id": "helmet-cleaning",
+      "title": "Helmet Cleaning",
+      "tags": [
+        { "label": "CLEANING", "color": "#FF9800" },
+        { "label": "DRYING", "color": "#795548" }
+      ],
+      "description": "Sed dictum dictum tortor. Aenean non nulla sed sem euismod vehicula. Donec a tincidunt neque."
+    }
+  }
+}

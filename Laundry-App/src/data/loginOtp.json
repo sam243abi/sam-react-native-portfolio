@@ -1,0 +1,19 @@
+{
+  "loginOtp": {
+    "titles": {
+      "header": "Enter OTP Verify Your Identity"
+    },
+    "subtitle": "Check your phone for the OTP we just sent and enter it here.",
+    "buttons": {
+      "login": "Login",
+      "goBack": "Go Back"
+    },
+    "messages": {
+      "resend": "Send Again"
+    },
+    "timer": {
+      "initialSeconds": 60
+    }
+  }
+}
+
