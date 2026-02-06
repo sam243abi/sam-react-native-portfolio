@@ -6,6 +6,16 @@ This project focuses on **practical app flows**, **persistent authentication**, 
 
 ---
 
+## 📸 App Preview
+
+### 📸 Screenshots
+👉 **[Click here to view app screenshots](assets/Preview)**
+
+### 🎥 Demo Video
+👉 **[Click here to view app Demo Vedio](assets/Preview)**
+
+---
+
 ## 🔐 Authentication Flow
 
 - 📱 Phone Number Login
